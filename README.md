@@ -1,2 +1,50 @@
 # Financial-Chatbot
 This is a simple AI-powered chatbot built using Python and Streamlit. It provides predefined financial insights for selected companies and fiscal years.
+📄 Financial Chatbot Prototype - Documentation
+
+Overview:
+-----------
+This is a simple AI-powered chatbot built using Python and Streamlit. It provides predefined financial insights for selected companies and fiscal years.
+
+How It Works:
+--------------
+- The chatbot loads financial data from `combined_financial_data.csv`.
+- Users select a company and a fiscal year from dropdown menus.
+- A predefined set of questions is available for selection.
+- Based on the user query and selected filters, the chatbot returns canned responses using conditional logic.
+
+Predefined Questions:
+----------------------
+1. What is the total revenue?
+2. How has net income changed over the last year?
+3. What are the total assets?
+4. What are the total liabilities?
+5. What is the operating cash flow?
+
+Optional Feature:
+------------------
+✅ A financial trends section (line chart + bar chart) allows users to visualize revenue, net income, assets, liabilities, and cash flow over multiple years for the selected company.
+
+How to Run:
+------------
+1. Ensure Python is installed.
+2. Install dependencies:
+   pip install streamlit pandas matplotlib
+
+3. Run the app:
+   streamlit run app.py
+
+Limitations:
+-------------
+- Only predefined questions are supported (no natural language understanding).
+- Data must be manually updated in the CSV file.
+- No persistent chat history or database.
+- Only basic UI/UX enhancements; no authentication or real-time updates.
+
+Tested Queries:
+---------------
+✅ Tested with Apple, Microsoft and Tesla data for 2022, 2023 & 2024. All queries return expected results.
+
+Author:
+--------
+VENU D S
