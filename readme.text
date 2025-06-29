@@ -32,6 +32,8 @@ How to Run:
 3. Run the app:
    streamlit run app.py
 
+Link : https://financial-chatbot-afkjxwjhcskeevye5xkuyj.streamlit.app/
+
 Limitations:
 -------------
 - Only predefined questions are supported (no natural language understanding).
